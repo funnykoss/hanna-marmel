@@ -7,29 +7,32 @@ import Container from '../Container/Container'
 
 const AboutSection = () => {
     return (
-     <>
+    
         <section className={s.sectionAbout}>
             <Container>
               <div className={s.wrapper}>
-                <p>photographer</p>
-                 <h1>Hanna Martysheva</h1>
-                <div className={s.imgWrapper}>
-                <img src={photo} alt="Анна Мартышева фото" className={s.img}/>
-                </div>
-                <div className={s.linkWrapper}>
-                    <Link to='/portfolio' className={s.aboutLink}>
+                <h2 className={s.description}>photographer</h2>
+                 <h1 className={s.sectionTitle}>Hanna Martysheva</h1>
+                
+                    <div className={s.linkWrapper}>
                             <BsArrowRightShort className={ s.icon}/>
-                            SHOW PORTFOLIO        
-                    </Link>
-                </div>       
-                </div>
-            
+                            <Link to='/portfolio' className={s.aboutLink}>
+                                SHOW PORTFOLIO        
+                            </Link>
+                    </div> 
+                     
+              </div>
+                    <div className={s.imgWrapper}>
+                    <img src={photo} alt="Анна Мартышева фото" className={s.img}/>
+                </div> 
             </Container>
+            
         </section>
            
-    </>
+   
             
     )
+
 }
 
 export default AboutSection
