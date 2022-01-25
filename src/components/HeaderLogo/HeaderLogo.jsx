@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HeaderLogo = () => {
     return (
         <>
-            <Link>
+            <Link to="/">
             <img src={Logo} alt="логотип" />
             </Link>
         </>
