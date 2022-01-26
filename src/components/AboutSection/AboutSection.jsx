@@ -13,16 +13,15 @@ const AboutSection = () => {
               <div className={s.wrapper}>
                 <h2 className={s.description}>photographer</h2>
                  <h1 className={s.sectionTitle}>Hanna Martysheva</h1>
-                
-                    <div className={s.linkWrapper}>
+                       
+                </div>
+                <div className={s.linkWrapper}>
                             <BsArrowRightShort className={ s.icon}/>
                             <Link to='/portfolio' className={s.aboutLink}>
                                 SHOW PORTFOLIO        
                             </Link>
-                    </div> 
-                     
-              </div>
-                    <div className={s.imgWrapper}>
+                 </div>
+                 <div className={s.imgWrapper}>
                     <img src={photo} alt="Анна Мартышева фото" className={s.img}/>
                 </div> 
             </Container>
