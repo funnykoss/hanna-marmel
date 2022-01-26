@@ -1,4 +1,34 @@
 .portfolioSection{
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #EAF0EE;
     height: 100vh;
+}
+
+.sectionTitle{
+    font-size:20px;
+text-transform: uppercase;
+color: #442A24;
+margin-bottom: 20px;
+}
+
+.icon{
+     width: 100px;
+    fill: #442A24;
+}
+
+.link{
+    margin-top: 50px;
+   display: flex;
+   justify-content: flex-end;
+   
+   align-items: center;
+}
+
+.link::before{
+    content: '';
+    height: 2px;
+    width: 900px;
+    background-color: #442A24;
+    
 }
