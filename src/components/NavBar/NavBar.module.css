@@ -2,7 +2,7 @@
     display: flex;
 }
 .navLink{
-    font-size: 11px;
+    font-size: 20px;
     font-weight: 500;
     color: #442A24;
     text-transform: uppercase;
@@ -10,4 +10,8 @@
 
 .navItem:not(:last-child){
     margin-right: 60px;
+}
+
+.navItem{
+    cursor: pointer;
 }
