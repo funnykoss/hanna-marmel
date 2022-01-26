@@ -1,32 +1,24 @@
 .sectionAbout{
     position: relative;
-background-color: #F1EBE5;
-height: 100vh;
+    background-color: #F1EBE5;
+    height: 100vh;
+
 }
 
-.wrapper{
-    /* position: absolute;
-    top: 250px; */
-   
-    align-items: center;
-}
 
-.linkWrapper{
-    position: absolute;
- top: 30px;
+.aboutLink{
+      position: absolute;
+    top: 30px;
     right: 25px;
     border: 1px solid #F1EBE5;
     border-radius: 50%;
-   padding: 30px 35px; 
-   z-index: 1200; 
-}
-
-.aboutLink{
+    padding: 30px 35px; 
+    z-index: 1200;
     color: #F1EBE5;
-    height: 27px;
-    width: 72px;
-   margin-bottom: 10px;  
-   margin-right: 10px;
+    
+    width: 72px; 
+    margin-bottom: 10px;  
+    margin-right: 10px;
 
 }
 
@@ -40,19 +32,19 @@ height: 100vh;
     min-height: 648px;
 }
 .imgWrapper{
-     width: 810px;
+    width: 810px;
     min-height: 648px;
 }
 .sectionTitle{
-width: 494px;
+    max-width: 494px;
+    
+    font-family: "Libre Baskerville";
+    font-size: 76px;
+    position: relative;
+    z-index: 1000;
+    color: #442A24;
 
-align-self: center;
-font-family: "Libre Baskerville";
-font-size: 76px;
-position: relative;
-z-index: 1000;
-color: #442A24;
-margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .description{
@@ -60,7 +52,7 @@ margin-bottom: 15px;
     font-size: 18px;
     font-style: italic;
     color: #442A24;
-  
+     margin-bottom: 480px;
 }
 
 .imgWrapper{
@@ -72,4 +64,31 @@ margin-bottom: 15px;
     width: 30px;
     height: 30px;
     fill: #442A24;
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 250px;
+}
+
+.socialItem:not(:last-child){
+   margin-right: 15px; 
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.socialLinks::after{
+
+    content: '';
+    height: 2px;
+    width: 900px;
+    background-color: #442A24;
+   margin-left: 15px;
+ 
 }
