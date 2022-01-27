@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Header />}>
           <Route index element={<HomePageView />} />
           <Route path="portfolio" element={<PortfolioPageView />} />
-          <Route path="portrets" element={<PortretsPageView />} />
+          <Route path="portfolio/portrets" element={<PortretsPageView />} />
         </Route>
       </Routes>
     </>
