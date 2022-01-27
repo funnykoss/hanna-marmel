@@ -5,14 +5,17 @@ import { Routes, Route } from "react-router-dom";
 import HomePageView from "./view/HomePageView";
 import Header from "./components/Header";
 import PortfolioPageView from "./view/PortfolioPageView";
+import PortretsPageView from "./view/PortretsPageView/PortretsPageView";
 
 function App() {
   return (
     <>
-      <Header />
       <Routes>
-        <Route exact path="/" element={<HomePageView />} />
-        <Route path="/portfolio" element={<PortfolioPageView />} />
+        <Route path="/" element={<Header />}>
+          <Route index element={<HomePageView />} />
+          <Route path="portfolio" element={<PortfolioPageView />} />
+          <Route path="portrets" element={<PortretsPageView />} />
+        </Route>
       </Routes>
     </>
   );
