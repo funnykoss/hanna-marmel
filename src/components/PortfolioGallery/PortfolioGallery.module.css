@@ -1,3 +1,14 @@
+.container{
+    
+    grid-template-columns: 20fr 30fr 15fr;
+    display: grid;
+    grid-column-gap: 60px ;
+    grid-row-gap: 20px;
+    grid-auto-rows: minmax(100%, auto);
 
+}
+.item{
+padding: 10px;
+}
 
 
