@@ -2,12 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import s from '../PortfolioPageView/PortfolioPageView.module.css'
 import PortfolioGallery  from '../../components/PortfolioGallery'
-import list from '../../JSON/portrets.json'
 import Container from "../../components/Container/Container";
 import { MdOutlineDoubleArrow } from 'react-icons/md';
+import list from '../../JSON/drone.json'
 
 
-const PortretsPageView = () => {
+const DronePageView = () => {
   
     return (
         
@@ -15,7 +15,7 @@ const PortretsPageView = () => {
             <Container>
                 <h1 className={s.sectionTitle}> Unusual and custom characters</h1>
                 <PortfolioGallery list={list} />
-                <Link to="food" className={s.link}>
+                <Link to="portfolio" className={s.link}>
                     <MdOutlineDoubleArrow className={ s.icon}/>
                 </Link>
              </Container>
@@ -24,4 +24,4 @@ const PortretsPageView = () => {
     )
 }
 
-export default PortretsPageView
+export default DronePageView
