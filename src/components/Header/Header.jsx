@@ -4,11 +4,12 @@ import HeaderLogo from "../HeaderLogo";
 import NavBar from '../NavBar'
 import Container from "../Container";
 import { BiMenuAltRight } from 'react-icons/bi';
+import { Outlet } from "react-router-dom";
 
 const Header = () => {
     return (
         <>
-        <section className={s.header}>
+        <header className={s.header}>
             <Container>
                 <div className={s.wrapper}>
                     <HeaderLogo />
@@ -16,7 +17,8 @@ const Header = () => {
                     <BiMenuAltRight className={s.icon}/>
                 </div>
             </Container>
-        </section>
+            </header>
+            <Outlet/>
            
     </>
     )
