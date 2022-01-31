@@ -17,8 +17,13 @@ const AboutSection = () => {
         <section className={s.sectionAbout}>
             {viewPort.width < 768 && (
                 <Container>
-                <div className={s.wrapper}>
-                    
+                    <div className={s.wrapper}>
+                          <Link to='/portfolio'className={s.aboutLink}>
+                            <BsArrowRightShort className={ s.icon}/>
+                        </Link>
+                    <div className={s.imgWrapper}>
+                    <img src={photo} alt="Анна Мартышева фото" className={s.img}/>
+                    </div> 
                     <h1 className={s.sectionTitle}>Hanna Martysheva</h1>
                     <h2 className={s.description}>photographer</h2>
                     <ul className={s.socialLinks}>
@@ -34,9 +39,7 @@ const AboutSection = () => {
                         </li>
                     </ul>   
                 </div>
-                 <div className={s.imgWrapper}>
-                    <img src={photo} alt="Анна Мартышева фото" className={s.img}/>
-                </div> 
+                 
                 
             </Container>
             )}
