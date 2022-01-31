@@ -1,7 +1,9 @@
 .sectionAbout{
     position: relative;
     background-color: #F1EBE5;
-    height: 100vh;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 50px;
 
 }
 

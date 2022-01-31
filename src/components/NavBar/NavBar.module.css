@@ -1,5 +1,18 @@
-.navList{
-    display: flex;
+
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .navList{
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       z-index: 2000;
+       height: 100vh;
+       width: 30vh;
+        
 }
 .navLink{
     font-size: 20px;
@@ -13,11 +26,38 @@
 }
 
 .navItem{
+    padding: 10px 20px;
     cursor: pointer;
+}
+
+.navLink:hover,
+.navLink:focus{
+    color: #043d86;
 }
 .active{
 font-size: 20px;
     font-weight: 500;
     color: #043d86;
     text-transform: uppercase;
+}
+}
+
+
+@media screen and (min-width: 768px){
+.navList{
+    display: flex;
+    background-color:transparent;
+}
+.navLink{
+    font-size: 20px;
+    font-weight: 500;
+    color: #442A24;
+    text-transform: uppercase;
+}
+
+.navItem:not(:last-child){
+    margin-right: 60px;
+}
+
+
 }

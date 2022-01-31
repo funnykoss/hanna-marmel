@@ -1,6 +1,6 @@
 import React from "react";
 import {  useNavigate} from "react-router-dom";
-import s from '../PortfolioPageView/PortfolioPageView.module.css'
+import s from './DronePageView.module.css'
 import PortfolioGallery  from '../../components/PortfolioGallery'
 import Container from "../../components/Container/Container";
 import { MdOutlineDoubleArrow } from 'react-icons/md';
