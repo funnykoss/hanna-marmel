@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import {  useNavigate} from "react-router-dom";
 import s from '../PortfolioPageView/PortfolioPageView.module.css'
 import PortfolioGallery  from '../../components/PortfolioGallery'
 import Container from "../../components/Container/Container";
@@ -7,17 +7,23 @@ import { MdOutlineDoubleArrow } from 'react-icons/md';
 import list from '../../JSON/drone.json'
 
 
+
 const DronePageView = () => {
+     const navigate = useNavigate()
   
+    function goBack() {
+    return navigate(-1)
+    
+}  
     return (
         
         <section className={s.portfolioSection}>
             <Container>
                 <h1 className={s.sectionTitle}> Unusual and custom characters</h1>
                 <PortfolioGallery list={list} />
-                <Link to="portfolio" className={s.link}>
+                <button type="button" onClick={goBack}  className={s.link}>
                     <MdOutlineDoubleArrow className={ s.icon}/>
-                </Link>
+                </button>
              </Container>
             </section>
        
