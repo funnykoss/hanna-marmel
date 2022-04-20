@@ -1,7 +1,12 @@
-
+.active{
+    font-size: 20px;
+    font-weight: 500;
+    color: #043d86;
+    text-transform: uppercase;
+}
 
 @media screen and (min-width: 480px) and (max-width: 767px){
-    .navList{
+.navList{
         position: absolute;
         top: 0;
         right: 0;
@@ -35,7 +40,7 @@
     color: #043d86;
 }
 .active{
-font-size: 20px;
+    font-size: 20px;
     font-weight: 500;
     color: #043d86;
     text-transform: uppercase;
@@ -58,6 +63,11 @@ font-size: 20px;
 .navItem:not(:last-child){
     margin-right: 60px;
 }
-
+.active{
+    font-size: 20px;
+    font-weight: 500;
+    color: #043d86;
+    text-transform: uppercase;
+}
 
 }
