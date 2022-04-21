@@ -9,11 +9,21 @@ import useWindowDimensions from '../../hooks/useWindowDimensions';
 
 const Header = () => {
     const[isBurgerOpen,setIsBurgerOpen] = useState(false)
-        const viewPort = useWindowDimensions();
+    const viewPort = useWindowDimensions();
+    
+    const closeMenu = () => {
+        
+        setIsBurgerOpen(false)
+    }
     const toggleClick = (event) => {
-       event.preventDefault()
-    setIsBurgerOpen(isBurgerOpen=>!isBurgerOpen)
-}
+        event.preventDefault()
+        // console.log(event.currentTarget);
+        // console.log(event.target);
+        setIsBurgerOpen(isBurgerOpen => !isBurgerOpen)
+       
+    }
+    
+    
     return (
         <>
         <header className={s.header}>
@@ -28,11 +38,10 @@ const Header = () => {
                                 
                                 {isBurgerOpen &&
                                     <>
+                                    <NavBar onClose={closeMenu}/>
                                     <button type="button" onClick={toggleClick} className={s.headerBtnOpen}>
                                     <BiMenuAltRight className={s.iconOpen} />
                                     </button>
-                                    
-                                    <NavBar />
                                     </>
                                    }
                             </>

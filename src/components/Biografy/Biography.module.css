@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.section{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.description{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
