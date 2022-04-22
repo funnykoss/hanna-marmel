@@ -2,16 +2,18 @@ import React, { useState } from "react";
 import s from './Header.module.css'
 import HeaderLogo from "../HeaderLogo";
 import NavBar from '../NavBar'
+import NavBarBurger from '../NavBar/NavBarBurger'
 import Container from "../Container";
 import { BiMenuAltRight } from 'react-icons/bi';
 import { Outlet } from "react-router-dom";
 import useWindowDimensions from '../../hooks/useWindowDimensions';
 
+
 const Header = () => {
     const[isBurgerOpen,setIsBurgerOpen] = useState(false)
     const viewPort = useWindowDimensions();
     
-    const closeMenu = () => {
+    const closeMenu = (event) => {
         
         setIsBurgerOpen(false)
     }
@@ -22,7 +24,6 @@ const Header = () => {
         setIsBurgerOpen(isBurgerOpen => !isBurgerOpen)
        
     }
-    
     
     return (
         <>
@@ -38,10 +39,11 @@ const Header = () => {
                                 
                                 {isBurgerOpen &&
                                     <>
-                                    <NavBar onClose={closeMenu}/>
+                                    
                                     <button type="button" onClick={toggleClick} className={s.headerBtnOpen}>
                                     <BiMenuAltRight className={s.iconOpen} />
                                     </button>
+                                    <NavBarBurger onClose={closeMenu}/>
                                     </>
                                    }
                             </>
