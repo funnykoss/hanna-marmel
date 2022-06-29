@@ -1,7 +1,7 @@
 import React from "react";
 import PortfolioGallery from '../../components/PortfolioGallery/PortfolioGallery'
 import Container from "../../components/Container";
-import list from '../../JSON/portrets.json'
+import list from '../../JSON/start.json'
 
 
 const HomePageView = () => {
