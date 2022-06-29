@@ -1,12 +1,14 @@
 import React from "react";
-import AboutSection from "../../components/AboutSection/AboutSection";
+import PortfolioGallery from '../../components/PortfolioGallery/PortfolioGallery'
+import Container from "../../components/Container";
+import list from '../../JSON/portrets.json'
 
 
 const HomePageView = () => {
     return (
-        <>
-            <AboutSection/>
-        </>
+        <Container>
+            <PortfolioGallery list={list}/>
+        </Container>
     )
 }
 
