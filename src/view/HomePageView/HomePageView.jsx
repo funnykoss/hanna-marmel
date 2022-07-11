@@ -32,7 +32,7 @@ const HomePageView = () => {
                     </ul>
             </div> 
             <PortfolioGallery list={list} />
-            <Footer/>
+           
         </Container>
     )
 }

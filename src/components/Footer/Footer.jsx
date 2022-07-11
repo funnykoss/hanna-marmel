@@ -8,8 +8,9 @@ import Contacts from "./Contacts";
 const Footer = () => {
     return (
         <Container>
-            <SendMail />
-            <Contacts/>
+                <Contacts/>
+            {/* <SendMail /> */}
+        
         </Container>
        
     )

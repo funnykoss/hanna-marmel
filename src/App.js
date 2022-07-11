@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import PortfolioPageView from "./view/PortfolioPageView";
 import DronePageView from "./view/DronePageView";
 import AboutPageView from "./view/AboutPageView/AboutPageView";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="about" element={<AboutPageView />} />
         </Route>
       </Routes>
+      <Footer />
     </>
   );
 }
