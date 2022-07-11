@@ -18,8 +18,8 @@ Portfolio
                 </NavLink>
             </li>
             <li className={s.navItem}>
-                    <NavLink to="/blog" className={({ isActive }) => isActive ? s.active : s.navLink}>
-Blog
+                    <NavLink to="/price" className={({ isActive }) => isActive ? s.active : s.navLink}>
+Price
                 </NavLink>
             </li>
             <li className={s.navItem}>
