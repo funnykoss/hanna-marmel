@@ -6,6 +6,7 @@ import list from '../../JSON/start.json'
 import { AiFillInstagram } from 'react-icons/ai';
 import { RiFacebookCircleFill } from 'react-icons/ri';
 import s from './HomePageView.module.css'
+import Footer from "../../components/Footer/Footer";
 
 
 
@@ -30,7 +31,8 @@ const HomePageView = () => {
                         </li>
                     </ul>
             </div> 
-            <PortfolioGallery list={list}/>
+            <PortfolioGallery list={list} />
+           
         </Container>
     )
 }

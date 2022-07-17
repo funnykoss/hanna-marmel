@@ -44,7 +44,7 @@
 .sectionTitle{
     max-width: 294px;
      font-family: "Libre Baskerville";
-    font-size: 76px;
+    font-size: 36px;
     color: #442A24;
     margin-top: 30px;
 }
@@ -59,8 +59,8 @@
 
 
 .socialIcon{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     fill: #442A24;
     cursor: pointer;
 }
@@ -85,7 +85,7 @@
 
     content: '';
     height: 2px;
-    width: 900px;
+    width: 50px;
     background-color: #442A24;
    margin-left: 15px;
    
@@ -139,7 +139,7 @@
     /* max-width: 494px; */
     
     font-family: "Libre Baskerville";
-    font-size: 36px;
+    font-size: 76px;
     position: relative;
     z-index: 1000;
     color: #442A24;
