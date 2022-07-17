@@ -1,0 +1,14 @@
+.reviewSection{
+    padding-top: 20px;
+}
+
+.reviewText{
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+.reviewName{
+    font-size: 20px;
+text-decoration-line: underline;
+font-weight: bold
+}

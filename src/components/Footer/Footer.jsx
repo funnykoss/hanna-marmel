@@ -1,22 +1,19 @@
 import React from "react";
 
-import s from './Footer.module.css'
-import Reviews from '../Reviews/Reviews'
+import s from "./Footer.module.css";
+import SendReviews from "../SendReviews/SendReviews";
 import Container from "../Container";
-import Contacts from "./Contacts";
+import SocialLinks from "./SocialLinks";
 
 const Footer = () => {
-    return (
-        <Container>
-            <div className={s.footer}>
-                <Contacts/>
-                <Reviews />
-            </div>
-                
-        
-        </Container>
-       
-    )
-}
+  return (
+    <Container>
+      <div className={s.footer}>
+        <SocialLinks />
+        <SendReviews />
+      </div>
+    </Container>
+  );
+};
 
-export default Footer
+export default Footer;

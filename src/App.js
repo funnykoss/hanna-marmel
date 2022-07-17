@@ -8,6 +8,7 @@ import PortfolioPageView from "./view/PortfolioPageView";
 import DronePageView from "./view/DronePageView";
 import AboutPageView from "./view/AboutPageView/AboutPageView";
 import Footer from "./components/Footer/Footer";
+import ContactsPageView from "./view/ContactsPageView/ContactsPageView";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="portfolio" element={<PortfolioPageView />} />
             <Route path="portfolio/drone" element={<DronePageView />} />
             <Route path="about" element={<AboutPageView />} />
+            <Route path="contacts" element={<ContactsPageView />} />
           </Route>
         </Routes>
       </div>
