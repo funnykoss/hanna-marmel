@@ -1,5 +1,6 @@
 import Contacts from "../../components/Contacts/Contacts";
 import Container from "../../components/Container";
+import Reviews from "../../components/Reviews/Reviews";
 import s from "./ContactsPageView.module.css";
 
 const ContactsPageView = () => {
@@ -7,6 +8,7 @@ const ContactsPageView = () => {
     <Container>
       <div className={s.contactsSection}>
         <Contacts />
+        <Reviews />
       </div>
     </Container>
   );

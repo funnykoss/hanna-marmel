@@ -1,7 +1,7 @@
 import React from "react";
 
 import s from "./Footer.module.css";
-import Reviews from "../Reviews/Reviews";
+import SendReviews from "../SendReviews/SendReviews";
 import Container from "../Container";
 import SocialLinks from "./SocialLinks";
 
@@ -10,7 +10,7 @@ const Footer = () => {
     <Container>
       <div className={s.footer}>
         <SocialLinks />
-        <Reviews />
+        <SendReviews />
       </div>
     </Container>
   );
