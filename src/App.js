@@ -1,14 +1,15 @@
-import React from "react";
+import React from 'react';
 
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import HomePageView from "./view/HomePageView";
-import Header from "./components/Header";
-import PortfolioPageView from "./view/PortfolioPageView";
-import DronePageView from "./view/DronePageView";
-import AboutPageView from "./view/AboutPageView/AboutPageView";
-import Footer from "./components/Footer/Footer";
-import ContactsPageView from "./view/ContactsPageView/ContactsPageView";
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import HomePageView from './view/HomePageView';
+import Header from './components/Header';
+import PortfolioPageView from './view/PortfolioPageView';
+import DronePageView from './view/DronePageView';
+import AboutPageView from './view/AboutPageView/AboutPageView';
+import Footer from './components/Footer/Footer';
+import ContactsPageView from './view/ContactsPageView/ContactsPageView';
+import PricePageView from './view/PricePageView/PricePageView';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="portfolio/drone" element={<DronePageView />} />
             <Route path="about" element={<AboutPageView />} />
             <Route path="contacts" element={<ContactsPageView />} />
+            <Route path="price" element={<PricePageView />} />
           </Route>
         </Routes>
       </div>
