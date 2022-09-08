@@ -5,11 +5,11 @@
 html,
 body {
   height: 100%;
+  
 }
 .wrapper {
   display: flex;
   flex-direction: column;
- 
   height: 100vh;
 
 }
@@ -58,6 +58,7 @@ a {
 }
 button {
   cursor: pointer;
+  display: block 
 }
 
 ::-webkit-scrollbar {

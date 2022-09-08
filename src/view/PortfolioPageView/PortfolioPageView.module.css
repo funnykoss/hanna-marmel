@@ -1,6 +1,6 @@
 .portfolioSection{
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #EAF0EE;
 
 }
@@ -20,8 +20,6 @@ margin-bottom: 20px;
     margin-top: 50px;
    display: flex;
    justify-content: flex-end;
-   background-color: transparent;
-   border: none;
    align-items: center;
 }
 
