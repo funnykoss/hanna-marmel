@@ -1,38 +1,47 @@
 [
     {
         "id": 1,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg"
     },
     {
         "id": 2,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg"
     },
     {
         "id": 3,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg"
     },
     {
         "id": 4,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg"
     },
     {
         "id": 5,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg"
     },
     {
         "id": 7,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg"
     },
     {
         "id": 6,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg"
     },
     {
         "id": 9,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg"
     },
     {
         "id": 8,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg"
     }
 ]

@@ -1,38 +1,47 @@
 [
     {
         "id": 1,
-        "img": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg"
     },
     {
         "id": 2,
-        "img": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg"
     },
     {
         "id": 3,
-        "img": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg"
     },
     {
         "id": 4,
-        "img": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg"
     },
     {
         "id": 5,
-        "img": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg"
     },
     {
         "id": 7,
-        "img": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg"
     },
     {
         "id": 8,
-        "img": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg"
     },
     {
         "id": 9,
-        "img": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg"
     },
     {
         "id": 10,
-        "img": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg"
     }
 ]
