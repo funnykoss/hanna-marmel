@@ -1,4 +1,4 @@
-const PhotoItems = ({ tags, src, dataLargeImg, openModal }) => {
+const PhotoItems = ({ tags, src, dataLargeImg }) => {
   return (
     <li>
       <img src={src} alt={tags} data-largeimg={dataLargeImg} />

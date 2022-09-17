@@ -19,7 +19,7 @@ const HomePageView = () => {
   };
   const openModal = event => {
     setModalImage(() => event.target.dataset.largeImg);
-    console.log(event.target.dataset.largeImg);
+    console.log(event.target);
     setAlt(() => event.target.alt);
     toggleModal();
   };
