@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
+
 import s from './PortfolioPageView.module.css';
 import PortfolioGallery from '../../components/PortfolioGallery/';
 import list from '../../JSON/portrets.json';
@@ -17,6 +18,7 @@ const PortfolioPageView = () => {
         <Container>
           <h1 className={s.sectionTitle}> Unusual and custom characters</h1>
           <PortfolioGallery list={list} />
+
           <Link
             to={{
               pathname: 'drone',
