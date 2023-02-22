@@ -8,7 +8,7 @@ import SocialLinks from './SocialLinks';
 const Footer = () => {
   return (
     <Container>
-      <div className={s.footer}>
+      <div className={s.sectionFooter}>
         <SocialLinks />
         {/* <SendReviews /> */}
       </div>
