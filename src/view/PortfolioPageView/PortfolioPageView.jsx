@@ -18,7 +18,6 @@ const PortfolioPageView = () => {
         <Container>
           <h1 className={s.sectionTitle}> Unusual and custom characters</h1>
           <PortfolioGallery list={list} />
-
           <Link
             to={{
               pathname: 'drone',

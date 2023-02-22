@@ -1,7 +1,7 @@
 import React from 'react';
 
 import s from './Footer.module.css';
-import SendReviews from '../SendReviews/SendReviews';
+// import SendReviews from '../SendReviews/SendReviews';
 import Container from '../Container';
 import SocialLinks from './SocialLinks';
 
