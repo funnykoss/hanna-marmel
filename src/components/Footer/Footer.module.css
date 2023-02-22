@@ -1,6 +1,14 @@
 .footer{
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.socialList{
     display: flex;
-    justify-content: space-around;
+   justify-content: space-around;
+   align-items: center;
+}
+.socialLink{
+    text-decoration:none;
+    color:#442A24;
 }
