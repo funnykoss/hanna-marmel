@@ -6,8 +6,10 @@ import '../App.css';
 const Layout = () => {
   return (
     <div className="wrapper">
-      <div className="content">
+      <div className="header">
         <Header />
+      </div>
+      <div className="content">
         <Outlet />
       </div>
       <div className="footer">
