@@ -1,5 +1,5 @@
 .active{
-    font-size: 20px;
+     font-size: 18px;
     font-weight: 500;
     color: #043d86;
     text-transform: uppercase;
@@ -20,18 +20,18 @@
 } 
 }
 .navLink{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #442A24;
     text-transform: uppercase;
 }
 
 .navItem:not(:last-child){
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .navItem{
-    padding: 10px 20px;
+    padding: 10px 5px;
     cursor: pointer;
 }
 
@@ -55,18 +55,18 @@
         
 }
 .navLink{
-    font-size: 20px;
+     font-size: 18px;
     font-weight: 500;
     color: #442A24;
     text-transform: uppercase;
 }
 
 .navItem:not(:last-child){
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .navItem{
-    padding: 10px 20px;
+    padding: 10px 5px;
     cursor: pointer;
 }
 
@@ -75,7 +75,7 @@
     color: #043d86;
 }
 .active{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #043d86;
     text-transform: uppercase;
@@ -89,20 +89,24 @@
     background-color:transparent;
 }
 .navLink{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #442A24;
     text-transform: uppercase;
 }
 
 .navItem:not(:last-child){
-    margin-right: 60px;
+    margin-right: 30px;
 }
 .active{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: #043d86;
     text-transform: uppercase;
+}
+.navItem{
+    padding: 10px 5px;
+    cursor: pointer;
 }
 
 }
