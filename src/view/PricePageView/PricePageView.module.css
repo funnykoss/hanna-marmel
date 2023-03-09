@@ -10,9 +10,16 @@
   max-width: 1000px;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin-left: auto;
+    margin-right: auto
 
   /* margin: 50px 10px 10px; */
 }
+/* .section{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto
+} */
 .snip1265 .plan {
   margin: 0;
   width: 25%;

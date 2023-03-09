@@ -6,7 +6,7 @@ import priceList from '../../JSON/price.json';
 const PricePageView = () => {
   return (
     <Container>
-      <ul>
+      <ul className={s.section}>
         {priceList.map(({ id, title, price, type, features }) => {
           return <PriceItem key={id} title={title} price={price} type={type} features={features} />;
         })}

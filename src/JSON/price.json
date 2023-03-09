@@ -11,20 +11,20 @@
         "title": "Street Photo",
         "price": "29",
         "type": "month",
-        "features": "Features"
+        "features": "Street photography, street photography is a genre of photography taken in a public place: on the street, in a park, on the beach, etc. Street photography can be documentary, but is not limited to the documentary genre only"
     },
     {
         "id": 3,
-        "title": "Ultra",
+        "title": "Drone shoot",
         "price": "99",
         "type": "month",
-        "features": "Features"
+        "features": "Drone photography is the capture of still images and video by a remotely-operated or autonomous unmanned aerial vehicle (UAV), also known as an unmanned aircraft system (UAS) or, more commonly, as a drone."
     },
     {
         "id": 4,
-        "title": "Professional",
+        "title": "Food Photo",
         "price": "49",
         "type": "month",
-        "features": "Features"
+        "features": "Food photography is a style of still life photography that puts food at the center of the image. The purpose of food photography is generally to make food look as appetizing as possible, and can include subjects that range from elaborate full meals and tasty beverages to simple ingredients and fresh produce."
     }
 ]
