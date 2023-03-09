@@ -1,6 +1,8 @@
+import s from './PortfolioGallery.module.css';
+
 const PhotoItems = ({ tags, src, dataLargeImg, openModal }) => {
   return (
-    <li onClick={openModal}>
+    <li className={s.photoItem} onClick={openModal}>
       <img src={src} alt={tags} data-largeimg={dataLargeImg} />
     </li>
   );
