@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "title": "Starter",
+        "title": "Portrait photo session",
         "price": "19",
         "type": "month",
-        "features": "Features"
+        "features": "Reveal external attractiveness, show fortitude and express true mood - a portrait photo session will cope with each of these tasks with a bang. This format of shooting is one of the oldest. But at the same time - one of the most popular. The reason for this is the universality of photographs and their originality."
     },
     {
         "id": 2,
-        "title": "Basic",
+        "title": "Street Photo",
         "price": "29",
         "type": "month",
         "features": "Features"
