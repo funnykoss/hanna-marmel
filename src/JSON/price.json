@@ -2,29 +2,29 @@
     {
         "id": 1,
         "title": "Portrait photo session",
-        "price": "19",
-        "type": "month",
+        "price": "400",
+        "type": "day",
         "features": "Reveal external attractiveness, show fortitude and express true mood - a portrait photo session will cope with each of these tasks with a bang. This format of shooting is one of the oldest. But at the same time - one of the most popular. The reason for this is the universality of photographs and their originality."
     },
     {
         "id": 2,
         "title": "Street Photo",
-        "price": "29",
-        "type": "month",
+        "price": "400",
+        "type": "day",
         "features": "Street photography, street photography is a genre of photography taken in a public place: on the street, in a park, on the beach, etc. Street photography can be documentary, but is not limited to the documentary genre only"
     },
     {
         "id": 3,
         "title": "Drone shoot",
-        "price": "99",
-        "type": "month",
+        "price": "400",
+        "type": "hour",
         "features": "Drone photography is the capture of still images and video by a remotely-operated or autonomous unmanned aerial vehicle (UAV), also known as an unmanned aircraft system (UAS) or, more commonly, as a drone."
     },
     {
         "id": 4,
         "title": "Food Photo",
-        "price": "49",
-        "type": "month",
+        "price": "400",
+        "type": "day",
         "features": "Food photography is a style of still life photography that puts food at the center of the image. The purpose of food photography is generally to make food look as appetizing as possible, and can include subjects that range from elaborate full meals and tasty beverages to simple ingredients and fresh produce."
     }
 ]

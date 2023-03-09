@@ -7,7 +7,7 @@ const PriceItem = ({ title, price, type, features }) => {
           <i className={s.ionIosNavigateOutline}></i>
           <h4 className={s.planTitle}>{title}</h4>
           <div className={s.planCost}>
-            <span className={s.planPrice}>${price}</span>
+            <span className={s.planPrice}>€{price}</span>
             <span className={s.planType}>/{type}</span>
           </div>
         </header>
