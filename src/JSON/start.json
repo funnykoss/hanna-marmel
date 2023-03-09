@@ -1,74 +1,92 @@
 [
     {
         "id": 1,
-        "img": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/aerialphotographyagr.jpg"
     },
     {
         "id": 2,
-        "img": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/nightmoderncityonriv.jpg"
     },
     {
         "id": 3,
-        "img": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/ecoenergyconceptwind.jpg"
     },
     {
         "id": 4,
-        "img": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/aerialviewtreadmillb.jpg"
     },
     {
         "id": 5,
-        "img": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/wonderfulcountryside.jpg"
     },
     {
         "id": 7,
-        "img": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/beautifullandscapeae.jpg"
     },
     {
         "id": 8,
-        "img": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/dawnmoderncityoverlo.jpg"
     },
     {
         "id": 9,
-        "img": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/takebirdseyeviewflyo.jpg"
     },
     {
         "id": 10,
-        "img": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg"
+        "img": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg",
+        "largeImg": "https://u.cubeupload.com/funnykoss/specificlandscapesub.jpg"
     },
     {
         "id": 11,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/v2223q0b8CdunMH.jpg"
     },
     {
         "id": 12,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/c229ggVAGyA8eo.jpg"
     },
     {
         "id": 13,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/p21359Vcl8Rj1YZt.jpg"
     },
     {
         "id": 14,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w21356ZGRbO5kmB9.jpg"
     },
     {
         "id": 15,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/r21318ZYXh7nvb5X.jpg"
     },
     {
         "id": 17,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/y21318ENmG6xllWK.jpg"
     },
     {
         "id": 16,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/x21318qNZEZApTu1.jpg"
     },
     {
         "id": 19,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-m21318CN1OduYeMT.jpg"
     },
     {
         "id": 18,
-        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg"
+        "img": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg",
+        "largeImg": "https://dvqlxo2m2q99q.cloudfront.net/000_clients/3057592/page/w1000-t213184a6aLWGimu.jpg"
     }
 ]

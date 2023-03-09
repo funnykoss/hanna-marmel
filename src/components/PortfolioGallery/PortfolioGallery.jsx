@@ -1,7 +1,7 @@
 import React from 'react';
 // import s from './PortfolioGallery.module.css'
 import s from './PortfolioGallery.module.css';
-import PhotoItems from '../PhotoItems/PhotoItems';
+import PhotoItems from './PhotoItems';
 
 const PortfolioGallery = ({ list, onClick }) => {
   return (

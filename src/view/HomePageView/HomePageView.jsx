@@ -1,8 +1,7 @@
 import React from 'react';
-import { useState } from 'react';
 import PortfolioGallery from '../../components/PortfolioGallery/PortfolioGallery';
 import Container from '../../components/Container';
-import Modal from '../../components/Modal/Modal';
+// import Modal from '../../components/Modal/Modal';
 import list from '../../JSON/start.json';
 // import { BsArrowRightShort } from 'react-icons/bs';
 import { AiFillInstagram } from 'react-icons/ai';
@@ -10,23 +9,6 @@ import { RiFacebookCircleFill } from 'react-icons/ri';
 import s from './HomePageView.module.css';
 
 const HomePageView = () => {
-  const [modalImage, setModalImage] = useState('');
-  const [showModal, setShowModal] = useState(false);
-  const [alt, setAlt] = useState(null);
-
-  const toggleModal = () => {
-    setShowModal(showModal => !showModal);
-  };
-  const openModal = event => {
-    setModalImage(() => event.target.dataset.largeImg);
-    console.log(event.target);
-    setAlt(() => event.target.alt);
-    toggleModal();
-  };
-  const closeModal = () => {
-    setModalImage('');
-    toggleModal();
-  };
   return (
     <Container>
       <div className={s.sectionInfo}>
@@ -47,8 +29,8 @@ const HomePageView = () => {
           </li>
         </ul>
       </div>
-      <PortfolioGallery list={list} onClick={openModal} />
-      {showModal && <Modal onClose={closeModal} src={modalImage} alt={alt} />}
+      <PortfolioGallery list={list} />
+      {/* {showModal && <Modal onClose={closeModal} src={modalImage} alt={alt} />} */}
     </Container>
   );
 };
