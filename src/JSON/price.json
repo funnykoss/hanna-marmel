@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Starter",
+        "price": "19",
+        "type": "month",
+        "features": "Features"
+    },
+    {
+        "id": 2,
+        "title": "Basic",
+        "price": "29",
+        "type": "month",
+        "features": "Features"
+    },
+    {
+        "id": 3,
+        "title": "Ultra",
+        "price": "99",
+        "type": "month",
+        "features": "Features"
+    },
+    {
+        "id": 4,
+        "title": "Professional",
+        "price": "49",
+        "type": "month",
+        "features": "Features"
+    }
+]
